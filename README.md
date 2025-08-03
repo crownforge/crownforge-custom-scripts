@@ -1,4 +1,4 @@
-# Crownforge Batch Scripts (Physgun edition)
+# Crownforge Custom Scripts (Physgun edition)
 
 A modular set of scripts to manage Minecraft worlds hosted on Physgun, including automated backups, retention pruning, and log management. Designed for containerized servers without SSH access.
 
