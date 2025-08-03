@@ -1,0 +1,6 @@
+# Ignore backup files
+*.zip
+*.tar.gz
+
+# Ignore environment variables
+.env
