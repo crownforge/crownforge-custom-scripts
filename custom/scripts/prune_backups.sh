@@ -11,7 +11,7 @@
 # CONFIGURATION
 BASE_DIR="/home/container/custom"
 BACKUP_DIR="$BASE_DIR/backups"
-RETENTION_DAYS=7
+RETENTION_DAYS=5
 LOG_DIR="$BASE_DIR/logs/$(date +"%Y%m%d")"
 LOG_FILE="$LOG_DIR/backup.log"
 

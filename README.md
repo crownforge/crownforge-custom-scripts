@@ -37,7 +37,7 @@ custom/
 ### `prune_backups.sh`
 -   **Description:** Manages backup retention by deleting old backups.
 -   **Functionality:**
-    -   Removes any backup folders under `custom/backups/` that are older than 7 days.
+    -   Removes any backup folders under `custom/backups/` that are older than 5 days.
 
 ### `prune_logs.sh`
 -   **Description:** Manages log retention by deleting old log files.
@@ -68,7 +68,7 @@ If `cron` is not available, use your hosting panel's scheduler to run the script
 
 -   **Data Integrity:** Backups are taken with world saving temporarily disabled to prevent corruption.
 -   **Retention Policy:**
-    -   Backups are kept for **7 days**.
+    -   Backups are kept for **5 days**.
     -   Logs are kept for **30 days**.
 -   **Modular Backups:** Each world dimension is compressed into a separate file for easier restoration of individual worlds.
 
@@ -82,4 +82,4 @@ This project is licensed under the MIT License or is in the public domain (Unlic
 
 ## ✉️ Author
 
-Created by a nerd who didn’t want to deal with griefing. 
+Created by a nerd who didn’t want to deal with griefing.
